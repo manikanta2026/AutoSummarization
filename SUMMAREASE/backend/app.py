@@ -119,5 +119,4 @@ def generate_qa_pdf():
     print(result1)
     return jsonify({"qa": markdown_to_html1(result1)})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
